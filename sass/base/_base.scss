@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* divide your preffered % size decimal by 16 - which is the root font size. Then all of the other sizes can be easily used in rem units. */
+html {
+  //This defines what 1 rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}

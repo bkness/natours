@@ -1,0 +1,44 @@
+/* ANIMATIONS */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); /* move 100px to the left */
+  }
+
+  80% {
+    transform: translateX(1rem); /* move 10px to the right */
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0); /* move back to original position */
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
