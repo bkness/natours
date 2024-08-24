@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
   margin: 0 auto;
 
   // Without not it would sleect the last child now it selects all but the last child
@@ -13,7 +12,6 @@
   // Will select all of the elements in which the class starts with col-
   // Can do start with contain or end with * $ ^ respectively
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {
