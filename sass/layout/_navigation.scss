@@ -49,7 +49,7 @@
   }
 
   &__list {
-    @include center-absolute;
+    @include centerAbs;
     list-style: none;
     text-align: center;
     width: 100%;
