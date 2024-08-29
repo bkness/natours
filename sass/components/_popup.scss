@@ -6,6 +6,8 @@
   top: 0;
   left: 0;
   z-index: 3500;
+  opacity: 0;
+  visibility: hidden;
 
   &__content {
     @include centerAbs;
@@ -14,6 +16,9 @@
     box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
     display: table;
     overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: all 0.4s 0.2s;
   }
 
   &__left {
@@ -49,5 +54,36 @@
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+  }
+
+  // OPEN STATES
+  &:target {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s;
+  }
+
+  &:target &__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  &__close {
+    &:link,
+    &:visited {
+      color: $color-grey-dark;
+      position: absolute;
+      top: 2.5rem;
+      right: 2.5rem;
+      font-size: 3rem;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.2s;
+      line-height: 1;
+    }
+
+    &:hover {
+      color: $color-primary;
+    }
   }
 }
