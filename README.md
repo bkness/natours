@@ -4,21 +4,27 @@ A fully responsive landing page built as a deep-dive into advanced CSS and Sass 
 
 **Live Demo:** _coming soon_
 
+![Full page overview](assets/images/overview.png)
+
 ---
 
 ## Screenshots
 
 | Hero | About |
 |------|-------|
-| ![Hero section](docs/screenshots/hero.png) | ![About section](docs/screenshots/about.png) |
+| ![Hero section](assets/images/hero.png) | ![About section](assets/images/about.png) |
 
-| Tours | Tours (hover) |
-|-------|--------------|
-| ![Tours section](docs/screenshots/tours.png) | ![Tours hover state](docs/screenshots/tours-hover.png) |
+| Features | Tours |
+|----------|-------|
+| ![Features section](assets/images/features.png) | ![Tours section](assets/images/tours.png) |
 
-| Testimonials | Booking |
-|-------------|---------|
-| ![Testimonials](docs/screenshots/testimonials.png) | ![Booking form](docs/screenshots/booking.png) |
+| Tours (card flip) | Testimonials |
+|-------------------|--------------|
+| ![Tours hover state](assets/images/tours-hover.png) | ![Testimonials](assets/images/testimonials.png) |
+
+| Booking | Navigation |
+|---------|-----------|
+| ![Booking form](assets/images/booking.png) | ![Pure CSS navigation](assets/images/navigation.png) |
 
 ---
 
